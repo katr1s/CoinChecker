@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+}
+
+:root{
+	--Black: #000;
+	--White: #fff;
+	--Blue: #023044;
+	--Red: #FF909B;
+	--Green: #B8FFD1;
+	--ColorPrimary: #00FFCA;
+	--ColorSecondary: #05BFDB;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1500px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background: var(--Blue);
+	color: var(--White);
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: var(--White);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.content{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+
+.quote{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+.quote .title{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.quote h1{
+	font-size: 55px;
+	color: transparent;
+	background: linear-gradient(90deg, var(--ColorPrimary),var(--ColorSecondary));
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.quote article{
+	width: 100%;
+	height: auto;
+	display: block;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	gap: 50px;
+}
+
+.quote h2{
+	width: 20ch;
+	margin: auto;
+	margin-bottom: 20px;
+	color: var(--ColorPrimary);
+	font-size: 60px;
+	border-bottom: 1px solid var(--ColorPrimary);
+}
+
+.quote img{
+	width: 50%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.quote .app{
+	width: 500px;
+	height: 100%;
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	align-content: center;
+	margin-top: 30px; 
+}
+
+.quote .app #form-search{
+	width: 100%;
+	height: auto;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.quote .app #form-search .text{
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	text-align: left;
+	align-content: center;
+}
+
+.quote .app #form-search .textinitial{
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	color: var(--Black);
+	background: var(--Green);
+	border-radius: 4px;
+	opacity: 0.9;
+	transition: 0.5s;
+}
+
+.quote .app #form-search .texterrorconsult{
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	color: var(--Black);
+	background: var(--Red);
+	border-radius: 4px;
+	opacity: 0.9;
+	transition: 0.5s;
+}
+
+.hidden{
+	display: none;
+}
+
+.quote .app #form-search select{
+	width: 100%;
+	height: auto;
+	color: var(--White);
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 1px solid var(--ColorPrimary);
+	background: transparent;
+	opacity: 1;
+}
+.quote .app #form-search select:focus{
+	outline: none;
+}
+
+.quote .app #form-search select option{
+	color: var(--Black);
+}
+
+.quote .app #form-search input{
+	width: 100px;
+	background: transparent;
+	color: var(--White);
+	padding: 10px;
+	border-radius: 4px;
+	border: 3px solid var(--ColorPrimary);
+	cursor: pointer;
+}
+
+.quote .app #form-search input:hover{
+	background: var(--ColorPrimary);
+	color: var(--Black);
+	transition: 0.5s;
+	box-shadow: 0 0 10px var(--ColorPrimary);
+}
+
+.answer{
+	width: 100%;
+	height: 300px;
+	margin-top: 20px; 
+	display: block;
+	justify-content: center;
+}
+
+.answer h2{
+	width: auto;
+	margin: auto;
+	font-size: 35px;
+}
+
+.answer h5{
+	width: 20ch;
+	color: var(--ColorSecondary);
+	margin: auto;
+	font-size: 30px;
+}
+
+.answer p{
+	width: 250px;
+	margin: auto;
+	font-size: 25px;
+	padding: 3px;
+}
+
+.answer article p{
+	width: 30ch;
+}
+
+
