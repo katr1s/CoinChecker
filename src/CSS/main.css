@@ -21,8 +21,9 @@ html{
 }
 
 body{
+	max-width: 1500px;
 	width: 100%;
-	height: auto;
+	height: 100vh;
 	margin: 0 auto;
 	background: var(--Blue);
 	color: var(--White);
@@ -233,3 +234,12 @@ a{
 }
 
 
+@media screen and (max-width: 1000px){
+	.quote img{
+		width: 10px;
+		display: none
+	}
+	.title{
+		margin-top: 40px; 
+	}
+}
