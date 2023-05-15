@@ -240,6 +240,15 @@ a{
 		display: none
 	}
 	.title{
+		width: 100%;
 		margin-top: 40px; 
+	}
+
+	.title h1{
+		font-size: 90px;
+	}
+
+	.quote .app{
+		width: 90%;
 	}
 }
